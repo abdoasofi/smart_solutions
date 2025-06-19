@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-06-19 02:34:18.133353",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehicle",
+  "column_break_zzyy",
+  "model",
+  "column_break_pwno",
+  "make"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Vehicle",
+   "options": "Vehicle",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zzyy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "vehicle.model",
+   "fieldname": "model",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Model"
+  },
+  {
+   "fieldname": "column_break_pwno",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "vehicle.make",
+   "fieldname": "make",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Make"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-06-19 02:57:04.184084",
+ "modified_by": "Administrator",
+ "module": "Smart Solutions",
+ "name": "Authorized Vehicle",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

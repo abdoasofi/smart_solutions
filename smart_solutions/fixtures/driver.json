@@ -1,0 +1,99 @@
+[
+ {
+  "address": null,
+  "cell_number": null,
+  "custom_authorized_vehicle": [
+   {
+    "make": "Ford",
+    "model": "2024",
+    "parent": "HR-DRI-2025-00001",
+    "parentfield": "custom_authorized_vehicle",
+    "parenttype": "Driver",
+    "vehicle": "021201020"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Driver",
+  "driving_license_category": [],
+  "employee": null,
+  "expiry_date": null,
+  "full_name": "محمد احمد",
+  "issuing_date": null,
+  "license_number": null,
+  "modified": "2025-06-19 03:02:10.413139",
+  "name": "HR-DRI-2025-00001",
+  "naming_series": "HR-DRI-.YYYY.-",
+  "status": "Active",
+  "transporter": null
+ },
+ {
+  "address": null,
+  "cell_number": null,
+  "custom_authorized_vehicle": [
+   {
+    "make": "BMW",
+    "model": "2025",
+    "parent": "HR-DRI-2025-00002",
+    "parentfield": "custom_authorized_vehicle",
+    "parenttype": "Driver",
+    "vehicle": "01245121"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Driver",
+  "driving_license_category": [],
+  "employee": null,
+  "expiry_date": null,
+  "full_name": "علي ناصر",
+  "issuing_date": null,
+  "license_number": null,
+  "modified": "2025-06-19 02:57:27.230199",
+  "name": "HR-DRI-2025-00002",
+  "naming_series": "HR-DRI-.YYYY.-",
+  "status": "Active",
+  "transporter": null
+ },
+ {
+  "address": null,
+  "cell_number": null,
+  "custom_authorized_vehicle": [
+   {
+    "make": "Ford",
+    "model": "2024",
+    "parent": "HR-DRI-2025-00003",
+    "parentfield": "custom_authorized_vehicle",
+    "parenttype": "Driver",
+    "vehicle": "021201020"
+   },
+   {
+    "make": "BMW",
+    "model": "2025",
+    "parent": "HR-DRI-2025-00003",
+    "parentfield": "custom_authorized_vehicle",
+    "parenttype": "Driver",
+    "vehicle": "01245121"
+   },
+   {
+    "make": "Honda",
+    "model": "2024",
+    "parent": "HR-DRI-2025-00003",
+    "parentfield": "custom_authorized_vehicle",
+    "parenttype": "Driver",
+    "vehicle": "012237741"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Driver",
+  "driving_license_category": [],
+  "employee": null,
+  "expiry_date": null,
+  "full_name": "صلاح",
+  "issuing_date": null,
+  "license_number": null,
+  "modified": "2025-06-19 03:49:09.880747",
+  "name": "HR-DRI-2025-00003",
+  "naming_series": "HR-DRI-.YYYY.-",
+  "status": "Active",
+  "transporter": null
+ }
+]
