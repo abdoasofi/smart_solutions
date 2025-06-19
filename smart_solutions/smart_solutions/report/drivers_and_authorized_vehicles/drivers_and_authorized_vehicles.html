@@ -1,0 +1,36 @@
+<!-- drivers_and_authorized_vehicles.html -->
+{% include "templates/includes/formats/common_format" %}
+
+<h3>{{ filters.driver
+  ? __("Driver: ") + filters.driver
+  : __("All Drivers")
+}}</h3>
+
+<table class="table table-bordered">
+  <thead>
+    <tr class="text-primary">
+      <th>{{ __("Name") }}</th>
+      <th>{{ __("Make") }}</th>
+      <th>{{ __("Model") }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in data %}
+      {% if row.is_group %}
+        <!-- سطر السائق -->
+        <tr style="background-color:#5cb85c; color:#fff;">
+          <td><strong>{{ row.driver_or_vehicle }}</strong></td>
+          <td></td>
+          <td></td>
+        </tr>
+      {% else %}
+        <!-- سطر السيارة -->
+        <tr style="background-color:#d9edf7;">
+          <td style="padding-left: 20px;">{{ row.driver_or_vehicle }}</td>
+          <td>{{ row.make or "" }}</td>
+          <td>{{ row.model or "" }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
