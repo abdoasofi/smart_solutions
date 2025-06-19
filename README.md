@@ -1,11 +1,11 @@
 # 🧠 smart_solutions – ERPNext Driver Fleet App
 A smart chip for managing drivers and vehicles within ERPNext via a tree interface and advanced reports.
 
-![Drivers](public/img/1.png)
-![Vehicles](public/img/2.png)
-![Authorized Vehicle](public/img/3.png)
-![Tree View Report](public/img/4.png)
-![PDF](public/img/5.png)
+![Drivers](smart_solutions/public/img/1.png)
+![Vehicles](smart_solutions/public/img/2.png)
+![Authorized Vehicle](smart_solutions/public/img/3.png)
+![Tree View Report](smart_solutions/public/img/4.png)
+![PDF](smart_solutions/public/img/5.png)
 
 ## 🚀 Features
 
