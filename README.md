@@ -17,7 +17,7 @@ A smart chip for managing drivers and vehicles within ERPNext via a tree interfa
 ## 🔧 Installation
 
 ```bash
-bench get-app https://github.com/abdoalsofi/smart_solutions
+bench get-app https://github.com/abdoasofi/smart_solutions
 bench --site your-site install-app smart_solutions
 bench migrate
 bench restart
